@@ -1,0 +1,17 @@
+SHARK TRAINING - pacote para GitHub Pages
+
+Arquivos na raiz do repositório:
+- index.html: aplicativo atualizado (retomada/salvamento das séries)
+- manifest.json: configuração de instalação como aplicativo
+- sw.js: cache e funcionamento offline básico
+- icon-192.png e icon-512.png: ícones usados na instalação
+- logo.png: arquivo da logo em tamanho original
+
+Como publicar:
+1. Faça backup dos dados no app antigo antes de trocar a versão.
+2. Abra o repositório Shark-Training no GitHub.
+3. Envie/substitua TODOS estes arquivos na raiz do repositório, mantendo exatamente os nomes.
+4. Em Settings > Pages, use Deploy from a branch, branch main, pasta /(root), se essa já for a configuração do repositório.
+5. Aguarde o deploy e abra o site no tablet. Se o app instalado mostrar a versão antiga, feche-o completamente e abra o site no navegador para atualizar; o cache pode levar um pouco para renovar.
+
+Nota: dados gravados no armazenamento local podem não migrar automaticamente entre endereços/origens diferentes. Faça backup antes de substituir.
